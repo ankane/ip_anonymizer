@@ -71,6 +71,10 @@ For hashing, use:
 config.middleware.insert_after ActionDispatch::RemoteIp, IpAnonymizer::HashIp, key: "secret"
 ```
 
+## Related Projects
+
+- [Logstop](https://github.com/ankane/logstop) - Keep personally identifiable information (PII) out of your logs
+
 ## History
 
 View the [changelog](https://github.com/ankane/ip_anonymizer/blob/master/CHANGELOG.md)
