@@ -4,6 +4,8 @@
 
 Works with IPv4 and IPv6, and includes middleware for Rails
 
+Designed to help with [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) compliance
+
 [![Build Status](https://travis-ci.org/ankane/ip_anonymizer.svg?branch=master)](https://travis-ci.org/ankane/ip_anonymizer)
 
 ## Getting Started
