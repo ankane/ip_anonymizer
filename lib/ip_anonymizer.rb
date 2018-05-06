@@ -7,7 +7,7 @@ require "ip_anonymizer/version"
 
 module IpAnonymizer
   def self.mask_ip(ip)
-    addr = IPAddr.new(ip)
+    addr = IPAddr.new(ip.to_s)
     if addr.ipv4?
       # set last octet to 0
       addr.mask(24).to_s
@@ -18,7 +18,7 @@ module IpAnonymizer
   end
 
   def self.hash_ip(ip, key:, iterations: 1)
-    addr = IPAddr.new(ip)
+    addr = IPAddr.new(ip.to_s)
     key_len = addr.ipv4? ? 4 : 16
     family = addr.ipv4? ? Socket::AF_INET : Socket::AF_INET6
 
