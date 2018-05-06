@@ -33,7 +33,7 @@ IpAnonymizer.mask_ip("2001:4860:4860:0:0:0:0:8844")
 # => "2001:4860:4860::"
 ```
 
-An advantange of this approach is geocoding will still work, only with slightly less accuracy. A disadvantage is different IPs will have the same mask (`8.8.4.4` and `8.8.4.5` both become `8.8.4.0`).
+An advantange of this approach is geocoding will still work, only with slightly less accuracy. A potential disadvantage is different IPs will have the same mask (`8.8.4.4` and `8.8.4.5` both become `8.8.4.0`).
 
 ### Hashing
 
