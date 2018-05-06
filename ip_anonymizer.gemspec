@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Andrew Kane"]
   spec.email         = ["andrew@chartkick.com"]
 
-  spec.summary       = "IP address anonymizer for Ruby"
+  spec.summary       = "IP address anonymizer for Ruby and Rails"
   spec.homepage      = "https://github.com/ankane/ip_anonymizer"
   spec.license       = "MIT"
 

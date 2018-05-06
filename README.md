@@ -1,8 +1,8 @@
 # IP Anonymizer
 
-:earth_americas: IP address anonymizer for Ruby
+:earth_americas: IP address anonymizer for Ruby and Rails
 
-Works with IPv4 and IPv6, and includes middleware for Rails
+Works with IPv4 and IPv6
 
 Designed to help with [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) compliance
 
