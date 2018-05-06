@@ -22,8 +22,8 @@ There are two strategies for anonymizing IPs.
 
 This is the approach [Google Analytics uses for IP anonymization](https://support.google.com/analytics/answer/2763052):
 
-- For IPv4, the last octet is set to 0
-- For IPv6, the last 80 bits are set to zeros
+- For IPv4, set the last octet to 0
+- For IPv6, set the last 80 bits to zeros
 
 ```ruby
 IpAnonymizer.mask_ip("8.8.4.4")
