@@ -16,4 +16,8 @@ class IpAnonymizerTest < Minitest::Test
   def test_hash_ipv6
     assert_equal "f6e4:a4fe:32dc:2f39:3e47:84cc:e85e:865c", IpAnonymizer.hash_ip("2001:4860:4860:0:0:0:0:8844", key: "secret")
   end
+
+  def test_ipaddr_object
+    assert_equal "8.8.4.0", IpAnonymizer.mask_ip(IPAddr.new("8.8.4.4"))
+  end
 end
