@@ -51,7 +51,7 @@ An advantage of this approach is different IPs will have different hashes (with 
 
 Make sure the key is kept secret and at least 30 random characters. Otherwise, a rainbow table can be constructed. You can generate a good key with:
 
-```sh
+```ruby
 SecureRandom.hex(32)
 ```
 
