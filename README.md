@@ -47,12 +47,12 @@ IpAnonymizer.hash_ip("2001:4860:4860:0:0:0:0:8844", key: "secret")
 # => "f6e4:a4fe:32dc:2f39:3e47:84cc:e85e:865c"
 ```
 
-An advantage of this approach is different IPs will have different hashes.
+An advantage of this approach is different IPs will have different hashes (with the exception of collisions).
 
-Make sure the key is kept secret and at least 30 random characters. Otherwise, a rainbow table can be constructed. In Rails, you can generate a good key with:
+Make sure the key is kept secret and at least 30 random characters. Otherwise, a rainbow table can be constructed. You can generate a good key with:
 
 ```sh
-rails secret
+SecureRandom.hex(32)
 ```
 
 ## Rails
