@@ -1,7 +1,7 @@
-## 0.1.1
+## 0.1.1 (2018-05-11)
 
 - Better performance when IP not needed
 
-## 0.1.0
+## 0.1.0 (2018-05-05)
 
 - First release
