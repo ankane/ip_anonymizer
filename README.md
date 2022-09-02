@@ -13,7 +13,7 @@ Designed to help with [GDPR](https://en.wikipedia.org/wiki/General_Data_Protecti
 Add these lines to your application’s Gemfile:
 
 ```ruby
-gem 'ip_anonymizer'
+gem "ip_anonymizer"
 ```
 
 There are two strategies for anonymizing IPs.
