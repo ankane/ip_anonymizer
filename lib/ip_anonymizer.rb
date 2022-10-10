@@ -1,6 +1,8 @@
+# stdlib
 require "ipaddr"
 require "openssl"
 
+# modules
 require "ip_anonymizer/hash_ip"
 require "ip_anonymizer/mask_ip"
 require "ip_anonymizer/version"
