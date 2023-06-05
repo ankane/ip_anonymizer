@@ -3,9 +3,9 @@ require "ipaddr"
 require "openssl"
 
 # modules
-require "ip_anonymizer/hash_ip"
-require "ip_anonymizer/mask_ip"
-require "ip_anonymizer/version"
+require_relative "ip_anonymizer/hash_ip"
+require_relative "ip_anonymizer/mask_ip"
+require_relative "ip_anonymizer/version"
 
 module IpAnonymizer
   def self.mask_ip(ip)
