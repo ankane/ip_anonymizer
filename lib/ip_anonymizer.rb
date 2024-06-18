@@ -25,6 +25,6 @@ module IpAnonymizer
     family = addr.ipv4? ? Socket::AF_INET : Socket::AF_INET6
 
     keyed_hash = OpenSSL::KDF.pbkdf2_hmac(addr.to_s, salt: key, iterations: iterations, length: key_len, hash: "sha256")
-    IPAddr.new(keyed_hash.bytes.inject {|a, b| (a << 8) + b }, family).to_s
+    IPAddr.new(keyed_hash.bytes.inject { |a, b| (a << 8) + b }, family).to_s
   end
 end
