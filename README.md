@@ -6,7 +6,7 @@ Works with IPv4 and IPv6
 
 Designed to help with [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) compliance
 
-[![Build Status](https://github.com/ankane/ip_anonymizer/workflows/build/badge.svg?branch=master)](https://github.com/ankane/ip_anonymizer/actions)
+[![Build Status](https://github.com/ankane/ip_anonymizer/actions/workflows/build.yml/badge.svg)](https://github.com/ankane/ip_anonymizer/actions)
 
 ## Getting Started
 
